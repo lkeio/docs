@@ -19,7 +19,6 @@ class ReaderTest extends TestCase
 
         // when
         $contents = Reader::read($filePath, $filename);
-        
         // then
         $this->assertEquals($contents, $fileContent);
     }

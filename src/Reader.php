@@ -13,9 +13,9 @@ class Reader
         $finder->files()->name($filename);
         
         foreach ($finder as $key => $file) {
-            $contents = $file->getContents();
+            $content = $file->getContents();
         }
 
-        return $contents;
+        return $content;
     }
 }

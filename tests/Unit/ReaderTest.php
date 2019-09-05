@@ -19,13 +19,6 @@ class ReaderTest extends TestCase
        
         // when
         $contents = Reader::read($filePath, $filename);
-        // $finder = new Finder();
-        // $finder->in($filePath);
-        // $finder->files()->name($filename);
-
-        // foreach ($finder as $key => $file) {
-        //     $contents = $file->getContents();
-        // }
 
         // then
         $this->assertEquals($contents, $fileContent);

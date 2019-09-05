@@ -16,17 +16,10 @@ class ReaderTest extends TestCase
         $version = '1.0';
         $filename = 'test.md';
         $filePath = "{$path}/tests/docs/{$version}";
-       
+
         // when
         $contents = Reader::read($filePath, $filename);
-        // $finder = new Finder();
-        // $finder->in($filePath);
-        // $finder->files()->name($filename);
-
-        // foreach ($finder as $key => $file) {
-        //     $contents = $file->getContents();
-        // }
-
+        
         // then
         $this->assertEquals($contents, $fileContent);
     }

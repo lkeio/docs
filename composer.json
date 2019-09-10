@@ -15,7 +15,8 @@
         "erusev/parsedown": "^1.7",
         "symfony/finder": "^4.3",
         "phpunit/phpunit": "^8.3",
-        "symfony/routing": "^4.3"
+        "symfony/routing": "^4.3",
+        "lkeio/bases": "^V0.1.1"
     },
     "autoload": {
         "psr-4": {

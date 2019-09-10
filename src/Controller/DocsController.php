@@ -2,10 +2,13 @@
 
 namespace Educasoftware\Docs\Controller;
 
+use Lkeio\Bases\View;
+
 class DocsController
 {
-    public function show()
+    public function index()
     {
-        var_dump('test');
+
+        return View::make('docs', []);
     }
 }
